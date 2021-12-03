@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: rgb(213, 236, 215);
+}
+main{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+header{
+    width: 100%;
+    height: 350px;
+    background-image: url("../img/header\ -\ copia.jpg ");
+    background-position: top ;
+    background-size:cover;
+}
+h1{
+    text-align: center;
+}
+.fila a:link{
+    color: rgb(0, 0, 0);
+}
+.fila a:visited{
+    color: rgb(0, 0, 0);
+}
+.fila a:hover{
+    color: rgb(255, 255, 255);
+}
+.fila a:active{
+    background-color: rgb(139, 104, 235);
+    border-style: outset;
+}
+.fila{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:40px;
+}
+#enlace1,#enlace2,#enlace3,#enlace4{
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(182, 182, 224);
+
+}
+.eco{
+    background-color: rgb(226, 248, 239);
+    padding-bottom: 20px !important;
+    margin-top: 20px;
+}
+.eco .texto{
+    width: 1000px;
+    padding: 60px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.texto .picture img{
+    width: 260px;
+    height: 250px;
+} 
+p{
+    padding-right: 50px;
+}
+h2{
+    border-bottom: solid rgb(86, 138, 91);
+}
+footer{
+    text-align: center;
+    border-style: inset;
+}
+.cartas{
+    padding-top: 20px;
+}
+.card-title{
+    border-top: rgb(231, 231, 231) solid;
+}
